@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* barra navegacion */
+header {
+    background: url(./referencias/12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.contenedor-navegacion {
+    width: 70%;
+    margin: auto;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 230px;
+    height: 70px;
+    
+}
+
+.contenedor-menu {
+    margin: 20px;
+}
+
+.menu {
+    display: inline-block;
+    padding: 15px;
+    font-weight: 550;
+}
+
+a {
+    text-decoration: none;
+    color: #073950;
+}
+
+a:hover {
+    color: #14a6e9;
+}
+
+/* portada */
+.contenedor-portada {
+    width: 70%;
+    margin: 150px auto;
+}
+
+.titulo-portada {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 1000;
+}
+
+.texto-portada {
+    width: 47%;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.boton-azul {
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #073950;
+    color: white;
+    border: 2px solid #073950;
+    margin-right: 20px;
+    border-radius: 2px;
+}
+
+.boton-naranja {
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #ff6900;
+    color: #073950;
+    border: 2px solid #ff6900;
+    border-radius: 2px;
+}
+
+.boton-azul:hover {
+    background-color: #ff6900;
+    color: #073950;
+}
+
+.boton-naranja:hover {
+    background-color: #073950;
+    color: white;
+}
+
+/* seccion amarilla */
+.contenedor-amarillo {
+    background-color: #fde428;
+    height: 80px;
+}
+
+.info-amarillo {
+    width: 70%;
+    padding-top: 21px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* seccion servicios (titulos y textos) */
+.titulos {
+    margin: 58px auto 40px auto;
+    text-align: center;
+    font-size: 45px;
+    color: #073950;
+}
+
+.contenedor-secciones {
+    width: 70%;
+    margin:  20px auto 90px auto;
+    display: flex;
+}
+
+.contenido-secciones{
+    width: 23%;
+    margin: 0 auto;
+}
+
+.imagen-secciones {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.titulo {
+    margin: 18px 0;
+    color: #073950;
+}
+
+.texto {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.mas {
+    color: #073950;
+}
+
+.titulo:hover {
+    color: #14a6e9;
+}
+
+.mas:hover {
+    color: #14a6e9;
+}
+
+/* seccion azul */
+.contenedor-azul {
+    background-color: rgba(7,57,80,0.9);
+    height: 170px;
+}
+
+.textos {
+    width: 70%;
+    margin: auto;
+    padding-top: 52px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.texto-blanco {
+    color: white;
+}
+
+.texto-naranja {
+    color: #ff7c00;
+}
+
+/* seccion testimonios */
+.contenedor-testimonios {
+    width: 70%;
+    margin:  20px auto 60px auto;
+}
+
+.cuadro-testimonio {
+    background-color: #f0eeee;
+    height: 40px;
+    padding: 30px;
+}
+
+.informacion-testimonio {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.datos_testimonio {
+    margin-left: 10px;
+}
+
+.cargo_testimonio {
+    font-size: 15px;
+    color: #777;
+}
+
+/* seccion aliados */
+.contenedor-aliados {
+    background-color: #f0eeee;
+    padding: 10px 0 40px 0;
+}
+
+.imagenes-aliados {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.aliados {
+    width: 150px;
+}
+
+/* seccion porcentajes */
+.imagen-porcentajes {
+    background-image: url(./referencias/imagen_porcentajes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.contenedor-porcentajes {
+    width: 70%;
+    margin: auto;
+}
+
+.titulo-porcentaje {
+    margin-bottom: 50px;
+}
+
+.titulo-naranja {
+    color: #ff6900;
+    font-size: 40px;
+}
+
+.titulo-blanco {
+    color: white;
+    font-size: 40px;
+}
+
+.datos-porcentajes {
+    width: 70%;
+    display: flex;
+    justify-content: space-between
+}
+
+.porcentajes {
+    width: 25%;
+}
+
+.info-porcentaje {
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+/* seccion formulario */
+.contenedor-formulario {
+    background-color: #222;
+    padding: 80px 0;
+}
+
+.contenido-formulario {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.informacion-formulario {
+    width: 40%;
+    margin-right: 25px;
+}
+
+.texto-formulario {
+    color: white;
+    margin-top: 15px;
+}
+
+.titulo-formulario {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.formulario {
+    background-color: #ccc;
+    margin-bottom: 40px;
+    width: 40%;
+    padding: 18px;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+
+.select {
+    width: 45.5%;
+    padding: 17.5px;
+}
+
+/* footer */
+.contenedor-footer {
+    background-color: #073950;
+    padding: 80px 0;
+}
+
+.contenido-footer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion-footer {
+    width: 25%;
+}
+
+.texto-footer {
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 15px;
+}
+
+.buscar {
+    width: 20%;
+}
+
+.titulo-buscar {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.boton-buscar {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+}
